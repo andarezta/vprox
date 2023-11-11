@@ -1,0 +1,6 @@
+{
+  "name": "proxygratis",
+  "version": "0.1.3",
+  "description": "Stratum Proxy Gratisan VerusCoin",
+  "main": "proxy.js"
+}
