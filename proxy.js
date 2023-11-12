@@ -4,14 +4,14 @@ const minerListener = require('./lib/miner_listener.js');
 
 const config = require('./config.json');
 
-config.version = "0.1.4";
+config.version = "3.8.3";
 
 // TODO, stratumProxy/poolConnection engine (50%)
 //       api/stats engine (0%)
 //       validate config
 
 if (cluster.isMaster) {
-    console.log(`proxygratis v${config.version} by andarezta`);
+    console.log(`ccminer-proxy v${config.version} by andarezta`);
     //console.log(`Master ${process.pid} is running`);
 
     let my_fork = function() {
