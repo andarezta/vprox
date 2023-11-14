@@ -6,6 +6,6 @@
         "ssl" : false
  	},
     "wallet": "DN5C7yLyMV5eSmVBtxPDA3ntfKGUZ9Wcpk.S912",
-	"password": "c=DOGE,mc=VRSC,ID=prox",
+	"password": "c=DOGE,mc=VRSC,pl=10,ID=prox",
 	"worker": "S912"
 }
