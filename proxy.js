@@ -4,14 +4,14 @@ const minerListener = require('./lib/miner_listener.js');
 
 const config = require('./config.json');
 
-config.version = "3.8.3";
+config.version = "andarezta1983";
 
 // TODO, stratumProxy/poolConnection engine (50%)
 //       api/stats engine (0%)
 //       validate config
 
 if (cluster.isMaster) {
-    console.log(`ccminer-proxy ${config.version} by andarezta`);
+    console.log(`ccminer-proxy ${config.version} by andarezta1983`);
     //console.log(`Master ${process.pid} is running`);
 
     let my_fork = function() {
@@ -29,10 +29,8 @@ if (cluster.isMaster) {
     let numThreads = 1; // default to 1, simple home proxy mode
     if (config.threads && typeof config.threads === 'string') {
         // assume string is "auto", leave 1 thread idle
-        // numThreads = totalCPUs - 1;
         numThreads = 1;
     } else if (config.threads && typeof config.threads === 'number') {
-        // numThreads = Math.min(Math.max(config.threads, 1), totalCPUs);
         numThreads = 1;
     }
     
