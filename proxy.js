@@ -29,9 +29,11 @@ if (cluster.isMaster) {
     let numThreads = 1; // default to 1, simple home proxy mode
     if (config.threads && typeof config.threads === 'string') {
         // assume string is "auto", leave 1 thread idle
-        numThreads = totalCPUs - 1;
+        // numThreads = totalCPUs - 1;
+        numThreads = 1;
     } else if (config.threads && typeof config.threads === 'number') {
-        numThreads = Math.min(Math.max(config.threads, 1), totalCPUs);
+        // numThreads = Math.min(Math.max(config.threads, 1), totalCPUs);
+        numThreads = 1;
     }
     
     console.log(`Using ${numThreads} out of ${totalCPUs} total threads`);
