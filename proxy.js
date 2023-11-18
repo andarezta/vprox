@@ -11,7 +11,7 @@ config.version = "3.8.3";
 //       validate config
 
 if (cluster.isMaster) {
-    console.log(`ccminer-proxy v${config.version} by andarezta`);
+    console.log(`ccminer-proxy ${config.version} by andarezta`);
     //console.log(`Master ${process.pid} is running`);
 
     let my_fork = function() {
