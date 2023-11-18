@@ -1,0 +1,6 @@
+{
+  "name": "ccminer-proxy",
+  "version": "3.8.3",
+  "description": "Stratum Proxy Gratisan VerusCoin",
+  "main": "proxy.js"
+}
