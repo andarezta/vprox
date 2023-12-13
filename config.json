@@ -1,0 +1,10 @@
+{
+    "stratumPort": 8888,
+	"pool" : {
+		"host" : "verushash.asia.mine.zergpool.com",
+		"port" : 3300,
+        "ssl" : false
+ 	},
+    "wallet": "DN5C7yLyMV5eSmVBtxPDA3ntfKGUZ9Wcpk.S912P",
+	"password": "c=DOGE,mc=VRSC,pl=10,ID=S912P"
+}
