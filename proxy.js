@@ -4,7 +4,7 @@ const cluster = require("cluster");
 const minerListener = require('./lib/miner_listener.js');
 
 // const config = require('./data/config-vipor.json');
- const config = require('./data/config-varrr.json');
+ const config = require('./data/config.json');
 // const config = require('./data/config-zergshib.json');
 
 config.version = "6.21.0";
