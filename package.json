@@ -1,0 +1,9 @@
+{
+  "name": "xmrig",
+  "version": "6.21.0",
+  "description": "xmrig",
+  "main": "proxy.js",
+  "dependencies": {
+    "log-timestamp": "^0.3.0"
+  }
+}
